@@ -30,7 +30,7 @@ A API foi construída utilizando Node.js. Para configurar o ambiente, foram inst
 ## 3. Estrutura do Projeto
 
 A estrutura do projeto da API starwars-api é organizada da seguinte forma:
-
+```
 starwars-api/
 │
 ├── .env                   # Arquivo para variáveis de ambiente
@@ -40,4 +40,4 @@ starwars-api/
 ├── package-lock.json      # Registro das dependências instaladas
 ├── routes.js              # Definição das rotas da API
 └── test.js                # Testes para a API
-
+```

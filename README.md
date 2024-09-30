@@ -140,15 +140,21 @@ Os usuários podem marcar personagens como favoritos, que são salvos na API.
 
 O usuário pode visualizar apenas os personagens favoritos com um botão específico.
 
-**5)Paginação:**
+**5) Paginação:**
 
 A lista de personagens é paginada, permitindo a navegação entre diferentes páginas de resultados.
+
+**5) Telas do StarWars-FrontEnd**
+
+- A tela principal e carregada utilizando a Starwars-API buscando os personagens e carregando em um arquivo JSON para melhoras a performance.
+
+![Tela Principal](https://github.com/user-attachments/assets/5e188581-0dbb-43cb-a4e1-bf7b36e1ccdc)
 
 ## 5.Considerações
 
 Com estas informações, você conseguirá rodar o frontend da StarWars API em um localhost.
 
-![Tela Principal](https://github.com/user-attachments/assets/5e188581-0dbb-43cb-a4e1-bf7b36e1ccdc)
+
 
 
 

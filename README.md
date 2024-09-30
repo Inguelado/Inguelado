@@ -148,3 +148,7 @@ A lista de personagens é paginada, permitindo a navegação entre diferentes p�
 
 Com estas informações, você conseguirá rodar o frontend da StarWars API em um localhost.
 
+![Tela Principal](https://github.com/user-attachments/assets/5e188581-0dbb-43cb-a4e1-bf7b36e1ccdc)
+
+
+

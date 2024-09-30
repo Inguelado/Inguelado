@@ -76,12 +76,7 @@ Com estas informações você conseguirá rodar o starwars-api em um localhost.
 
 # 🛠 Construindo a StarWars-FrontEnd
 
-## 1. Configuração do MySQL
-
-
-🛠 Construindo o Frontend da StarWars API
-
-##1. Configuração do Ambiente
+## 1. Configuração do Ambiente
 
 Para configurar o ambiente do frontend, seguimos estes passos:
 

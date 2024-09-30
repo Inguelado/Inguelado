@@ -70,4 +70,7 @@ A estrutura do projeto da API starwars-api é organizada da seguinte forma:
   ```bash
   curl -X GET "http://localhost:3000/api/characters"
   ```
+## 4. Considerações:
+
+Com estas informações você conseguirá rodar o starwars-api em um localhost.
 

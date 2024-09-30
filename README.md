@@ -22,4 +22,22 @@ A API foi construída utilizando Node.js. Para configurar o ambiente, foram inst
   npm install cors
 - **dotenv:** Para gerenciar variáveis de ambiente de forma segura. Instalamos com:
    ```bash
-  npm install
+  npm install dotenv
+- **mysql:** Pacote que permite a conexão e manipulação do banco de dados MySQL. Instalamos usando:
+  ```bash
+  npm install mysql
+
+## 3. Estrutura do Projeto
+
+A estrutura do projeto da API starwars-api é organizada da seguinte forma:
+
+starwars-api/
+│
+├── .env                   # Arquivo para variáveis de ambiente
+├── app.js                 # Configuração do servidor Express
+├── db.js                  # Configuração da conexão com o banco de dados MySQL
+├── package.json           # Dependências e scripts do projeto
+├── package-lock.json      # Registro das dependências instaladas
+├── routes.js              # Definição das rotas da API
+└── test.js                # Testes para a API
+

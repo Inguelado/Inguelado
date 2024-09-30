@@ -1,3 +1,19 @@
+# 🛠 Apresentação do StarWars API e StarWars-FrontEnd
+
+## 1. Descrição
+
+Este desafio criou um API que busca informações tanto no Swapi quanto em seu DB Local para:
+
+- **Pesquisar pelo nome ou por parte do nome**
+- **Listar todos os personagens**
+- **Marcar e desmarcar personagens favoritos**
+- **Listar os personagens favoritos**
+  
+Aqui você encontra as informações:
+- **Descrição do Projeto**
+- **Configuraçãopara setup**
+- **Como Utilizar**
+
 # 🛠 Construindo a StarWars API
 
 ## 1. Configuração do MySQL

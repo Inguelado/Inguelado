@@ -74,3 +74,67 @@ A estrutura do projeto da API starwars-api é organizada da seguinte forma:
 
 Com estas informações você conseguirá rodar o starwars-api em um localhost.
 
+
+🛠 Construindo o Frontend da StarWars API
+
+##1. Configuração do Ambiente
+
+Para configurar o ambiente do frontend, seguimos estes passos:
+
+- **Instalação do Node.js:** Para instalar o Node.js, você pode baixá-lo do site oficial.
+Inicialização do projeto: Crie um novo projeto React usando o Create React App com o seguinte comando:
+bash
+Copiar código
+npx create-react-app starwars-frontend
+2. Instalação das Dependências
+Para a construção do frontend, foram instaladas as seguintes dependências:
+
+Axios: Biblioteca para realizar chamadas HTTP à API. Instalamos com:
+bash
+Copiar código
+npm install axios
+React Router Dom: Para gerenciar a navegação entre as diferentes páginas da aplicação. Instalamos com:
+bash
+Copiar código
+npm install react-router-dom
+3. Estrutura do Projeto
+A estrutura do projeto do frontend starwars-frontend é organizada da seguinte forma:
+
+csharp
+Copiar código
+starwars-frontend/
+│
+├── public/
+│   ├── data/               # Armazena o arquivo characters.json com os dados dos personagens
+│   ├── index.html          # Arquivo HTML principal da aplicação
+│   └── manifest.json       # Configurações da aplicação PWA
+│
+├── src/
+│   ├── assets/             # Imagens e logos utilizados no frontend
+│   ├── components/         # Componentes reutilizáveis da aplicação
+│   ├── services/           # Arquivo para configurar a API
+│   ├── App.js              # Componente principal da aplicação
+│   ├── index.js            # Ponto de entrada da aplicação
+│   └── styles.css          # Estilos globais da aplicação
+│
+├── package.json            # Dependências e scripts do projeto
+└── package-lock.json       # Registro das dependências instaladas
+4. Funcionalidades Implementadas
+Busca de Personagens:
+
+O usuário pode buscar personagens pelo nome através de uma barra de pesquisa.
+Listagem de Personagens:
+
+Todos os personagens são exibidos em uma tabela, mostrando detalhes como nome, altura, peso, cabelo, pele, olhos, ano de nascimento e gênero.
+Favoritar Personagens:
+
+Os usuários podem marcar personagens como favoritos, que são salvos na API.
+Navegação entre Favoritos:
+
+O usuário pode visualizar apenas os personagens favoritos com um botão específico.
+Paginação:
+
+A lista de personagens é paginada, permitindo a navegação entre diferentes páginas de resultados.
+5. Considerações
+Com estas informações, você conseguirá rodar o frontend da StarWars API em um localhost.
+

@@ -22,7 +22,4 @@ A API foi construída utilizando Node.js. Para configurar o ambiente, foram inst
   npm install cors
 -**dotenv:** Para gerenciar variáveis de ambiente de forma segura. Instalamos com:
    ```bash
-  npm install dotenv- **mysql**: Pacote que permite a conexão e manipulação do banco de dados MySQL. Instalamos usando:
-  '''bash
-Copiar código
-npm install mysql
+  npm install

@@ -20,6 +20,6 @@ A API foi construída utilizando Node.js. Para configurar o ambiente, foram inst
 - **CORS:** Middleware para permitir requisições de diferentes origens. Instalamos com:
   ```bash
   npm install cors
--**dotenv:** Para gerenciar variáveis de ambiente de forma segura. Instalamos com:
+- **dotenv:** Para gerenciar variáveis de ambiente de forma segura. Instalamos com:
    ```bash
   npm install

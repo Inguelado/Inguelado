@@ -74,6 +74,10 @@ A estrutura do projeto da API starwars-api é organizada da seguinte forma:
 
 Com estas informações você conseguirá rodar o starwars-api em um localhost.
 
+# 🛠 Construindo a StarWars-FrontEnd
+
+## 1. Configuração do MySQL
+
 
 🛠 Construindo o Frontend da StarWars API
 

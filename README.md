@@ -41,3 +41,29 @@ A estrutura do projeto da API starwars-api é organizada da seguinte forma:
   ├── routes.js              # Definição das rotas da API
   └── test.js                # Testes para a API
   ```
+
+
+1. Importar Personagens
+  ```bash
+  curl -X POST "http://localhost:3000/api/characters/import"
+  ```
+2. Buscar Personagem Externo
+  ```bash
+  curl -X GET "http://localhost:3000/api/characters/external?name=Luke%20Skywalker"
+  ```
+3. Marcar Personagem como Favorito
+  ```bash
+  curl -X PATCH "http://localhost:3000/api/characters/favorite" -H "Content-Type: application/json" -d "{\"name\": \"Luke Skywalker\"}"
+  ```
+4. Desmarcar Personagem como Favorito
+  ```bash
+  curl -X PATCH "http://localhost:3000/api/characters/unfavorite" -H "Content-Type: application/json" -d "{\"name\": \"Luke Skywalker\"}"
+  ```
+5. Listar Personagens Favoritos
+  ```bash
+   curl -X GET "http://localhost:3000/api/characters/favorites"
+  ```
+6. Listar Todos os Personagens
+  ```bash
+  curl -X GET "http://localhost:3000/api/characters"
+  ```

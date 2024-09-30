@@ -26,6 +26,9 @@ A API foi construída utilizando Node.js. Para configurar o ambiente, foram inst
 - **mysql:** Pacote que permite a conexão e manipulação do banco de dados MySQL. Instalamos usando:
   ```bash
   npm install mysql
+- **Iniciar Servidor:** Para rodar o servidor, utilize:
+  ```bash
+  node app.js
 
 ## 3. Estrutura do Projeto
 
@@ -67,3 +70,4 @@ A estrutura do projeto da API starwars-api é organizada da seguinte forma:
   ```bash
   curl -X GET "http://localhost:3000/api/characters"
   ```
+

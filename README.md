@@ -17,3 +17,12 @@ A API foi construída utilizando Node.js. Para configurar o ambiente, foram inst
 - **Express:** Um framework web para Node.js que facilita a construção de APIs. Instalamos usando o comando:
   ```bash
   npm install express
+- **CORS:** Middleware para permitir requisições de diferentes origens. Instalamos com:
+  ```bash
+  npm install cors
+-**dotenv:** Para gerenciar variáveis de ambiente de forma segura. Instalamos com:
+   ```bash
+  npm install dotenv- **mysql**: Pacote que permite a conexão e manipulação do banco de dados MySQL. Instalamos usando:
+  '''bash
+Copiar código
+npm install mysql

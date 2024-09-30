@@ -82,6 +82,7 @@ Com estas informações você conseguirá rodar o starwars-api em um localhost.
 Para configurar o ambiente do frontend, seguimos estes passos:
 
 - **Instalação do Node.js:** Para instalar o Node.js, você pode baixá-lo do site oficial.
+  
 Inicialização do projeto: Crie um novo projeto React usando o Create React App com o seguinte comando:
 bash
 Copiar código

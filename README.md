@@ -171,7 +171,7 @@ A lista de personagens é paginada, permitindo a navegação entre diferentes p�
 ![Tela Personagens Favoritos](https://github.com/user-attachments/assets/197f8a07-fd32-4d23-8194-83ea3d3472a9)
 
 - Para voltar para a tela principal basta selecionar o botão **"Página Principal"** no canto inferior direito da tela **Clicando duas vezes no Botão**.
-- 
+  
 ## 5.Considerações
 
 Com estas informações, você conseguirá rodar o frontend da StarWars API em um localhost.
